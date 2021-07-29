@@ -2,45 +2,14 @@
 <html>
 
 <head>
-	<meta charset="utf-8" />
-	<title></title>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <title>newdome</title>
+  <link href=/static/css/app.a9d84b80c33893732ee8c6ae7f73965c.css rel=stylesheet>
 </head>
 
 <body>
-	<div class="box">
-		<div id="niu" onmousemove="jin()">
-			点我啊
-		</div>
-	</div>
-</body>
-<style type="text/css">
-	.box {
-		width: 800px;
-		height: 800px;
-		border: 1px solid #000;
-		background-color: #00ffff;
-		position: relative;
-	}
-
-	#niu {
-		color: #ffffff;
-		width: 100px;
-		height: 100px;
-		font-size: 30px;
-		background-color: #000000;
-		position: absolute;
-		left: 300px;
-		top: 200px;
-	}
-</style>
-<script type="text/javascript">
-
-	function jin(e) {
-		var box1 = document.getElementsByClassName("box")[0]
-		var box = document.getElementById("niu")
-		box.style.left = Math.floor(Math.random() * 500) + "px"
-		box.style.top = Math.floor(Math.random() * 500) + "px"
-	}
-</script>
-
-</html>
+  <div id=app></div>
+  <script type=text/javascript src=/static/js/manifest.337f65b6481edd238f67.js> </script> <script type=text/javascript
+    src=/static/js/vendor.22b5abe5057cd4da245c.js> </script> <script type=text/javascript
+    src=/static/js/app.ff344c2cfee4d82c66c5.js> </script> </body> </html>
